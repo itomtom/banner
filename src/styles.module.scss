@@ -1,0 +1,13 @@
+$rhythm: 8;
+
+.banner {
+  display: flex;
+  color: white;
+  min-height: $rhythm * 41;
+  height: 500px;
+  padding: 0;
+  border: 0;
+  background: linear-gradient(to right, black 38%, transparent 75%),
+    url(/static/images/marketer/tasty-thursday.png) right no-repeat;
+  background-size: auto 100%;
+}
